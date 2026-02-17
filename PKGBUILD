@@ -47,7 +47,7 @@ package() {
   # we have to run as a user different from root
   # otherwise the installer wants to write to /opt, /var
   # which is not possible in fakeroot
-  runuser -u $USER -- "${pkgname}-${pkgver}.${_pkgmagic}_offline"/install.sh \
+  "${pkgname}-${pkgver}.${_pkgmagic}_offline"/install.sh \
     --silent --eula accept \
     --components all \
     --install-dir "${pkgdir}"/opt/intel/oneapi \
