@@ -1,7 +1,7 @@
 pkgbase = intel-oneapi-basekit-2025
 	pkgdesc = Intel oneAPI Base Toolkit for Linux
 	pkgver = 2025.3.1
-	pkgrel = 3
+	pkgrel = 4
 	url = https://software.intel.com/content/www/us/en/develop/tools/oneapi.html
 	install = intel-oneapi-base-toolkit.install
 	arch = x86_64
