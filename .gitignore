@@ -1,0 +1,14 @@
+src/
+pkg/
+
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.pkg.tar.gz
+
+*.sh
+*.bin
+intel-oneapi-base-toolkit-*.sh
+
+*.sig
+
+*.log
