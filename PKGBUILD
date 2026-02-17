@@ -1,6 +1,6 @@
 # Maintainer: lanxia <lanxia@gmail>
 
-pkgname=intel-oneapi-base-toolkit-2025
+pkgname=intel-oneapi-basekit-2025
 pkgver=2025.3.1
 # Get magic number and magic url from
 # https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html
