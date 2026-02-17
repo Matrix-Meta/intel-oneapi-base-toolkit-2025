@@ -6,7 +6,7 @@ pkgver=2025.3.1
 # https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html
 _pkgmagic=36
 _urlmagic=6caa93ca-e10a-4cc5-b210-68f385feea9e
-pkgrel=5
+pkgrel=6
 pkgdesc="Intel oneAPI Base Toolkit for Linux"
 arch=('x86_64')
 url='https://software.intel.com/content/www/us/en/develop/tools/oneapi.html'
@@ -47,7 +47,7 @@ package() {
   # we have to run as a user different from root
   # otherwise the installer wants to write to /opt, /var
   # which is not possible in fakeroot
-  "intel-oneapi-base-toolkit-${pkgver}.${_pkgmagic}_offline"/install.sh \
+  LD_PRELOAD="" "intel-oneapi-base-toolkit-${pkgver}.${_pkgmagic}_offline"/install.sh \
     --silent --eula accept \
     --components all \
     --install-dir "${pkgdir}"/opt/intel/oneapi \
