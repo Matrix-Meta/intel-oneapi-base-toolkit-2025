@@ -6,7 +6,7 @@ pkgver=2025.3.1
 # https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html
 _pkgmagic=36
 _urlmagic=6caa93ca-e10a-4cc5-b210-68f385feea9e
-pkgrel=1
+pkgrel=2
 pkgdesc="Intel oneAPI Base Toolkit for Linux"
 arch=('x86_64')
 url='https://software.intel.com/content/www/us/en/develop/tools/oneapi.html'
